@@ -19,7 +19,7 @@ For equipment we used a newly-acquired GTEN 200 neuromodulation system (Electric
 
 
 ## How does the DL pipeline work?
-It digests the input data folder (*timeseries* or *features* CSV files), splits into Train/Validation & Holdout *[tf.data.Datasets]*(https://www.tensorflow.org/api_docs/python/tf/keras/utils/timeseries_dataset_from_array), trains our CNN models in [TensorFlow](https://www.tensorflow.org/), and evaluates model performance & interpretability.
+It digests the input data folder (*timeseries* or *features* CSV files), splits into Train/Validation & Holdout *[tf.data.Datasets](https://www.tensorflow.org/api_docs/python/tf/keras/utils/timeseries_dataset_from_array)*, trains our CNN models in [TensorFlow](https://www.tensorflow.org/), and evaluates model performance & interpretability.
 
 ![Figure 2](https://github.com/alexispomares/DL-EEG-TES/blob/main/support-data/pics/Figure2.png?raw=true)
 
