@@ -1,0 +1,20 @@
+﻿label,id,color
+initial rest,101,k
+eyes closed,102,k
+bad/ramp,103,r
+bad/c,105,k
+calibration,104,k
+bad/p/A,106,m
+bad/p/D,107,y
+bad/f/A,108,b
+bad/f/D,109,g
+posterior/tACS/1,110,m
+posterior/tACS/2,111,m
+posterior/tDCS/1,120,y
+posterior/tDCS/2,121,y
+frontal/tACS/1,130,b
+frontal/tACS/2,131,b
+frontal/tDCS/1,140,g
+frontal/tDCS/2,141,g
+session/start,98,tab:brown
+session/end,99,tab:brown

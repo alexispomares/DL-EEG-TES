@@ -1,0 +1,9 @@
+﻿label,id,color
+rest,1,c
+eyes closed,2,k
+ramp,3,r
+calibration stim,5,m
+posterior/tACS,10,m
+posterior/tDCS,20,y
+frontal/tACS,30,b
+frontal/tDCS,40,g

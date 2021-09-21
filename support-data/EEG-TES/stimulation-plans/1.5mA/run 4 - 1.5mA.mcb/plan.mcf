@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with GTEN Planning Software, MCF Version 2.0 -->
+<mcf xmlns="http://www.egi.com/mcf_mff" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.egi.com/mcf_mff file:/Users/bertie/Robert/Documents/EGI/File%20Format/MFF%20Schema/xml/mcf/mcf.xsd" version="2.0">
+  <subjectId>run4</subjectId>
+  <name>Patient, Anonymous</name>
+  <planGenerator>egi</planGenerator>
+  <channelCount>256</channelCount>
+  <trains>
+    <train id="0">
+      <iterations>1</iterations>
+      <waveforms>
+        <rampWaveform id="0">
+          <type>up</type>
+        </rampWaveform>
+        <dcWaveform id="1"/>
+        <dcWaveform id="2"/>
+        <sineWaveform id="3">
+          <frequency>10</frequency>
+          <dcOffset>0</dcOffset>
+        </sineWaveform>
+        <dcWaveform id="4"/>
+        <dcWaveform id="5"/>
+        <dcWaveform id="6"/>
+        <dcWaveform id="7"/>
+        <dcWaveform id="8"/>
+        <dcWaveform id="9"/>
+        <dcWaveform id="10"/>
+      </waveforms>
+      <blocks>
+        <block id="0">
+          <duration_ms>3000</duration_ms>
+          <rest_ms>0</rest_ms>
+          <waveformId>0</waveformId>
+          <spatialPattern name="posterior_1.5mA">
+          <electrode channelID="171" amplitude="150"/>
+          <electrode channelID="161" amplitude="150"/>
+          <electrode channelID="162" amplitude="150"/>
+          <electrode channelID="152" amplitude="0"/>
+          <electrode channelID="153" amplitude="0"/>
+          <electrode channelID="85" amplitude="150"/>
+          <electrode channelID="86" amplitude="0"/>
+          <electrode channelID="75" amplitude="150"/>
+          <electrode channelID="76" amplitude="150"/>
+          <electrode channelID="77" amplitude="0"/>
+          <electrode channelID="201" amplitude="-37"/>
+          <electrode channelID="190" amplitude="-37"/>
+          <electrode channelID="176" amplitude="-37"/>
+          <electrode channelID="167" amplitude="-37"/>
+          <electrode channelID="157" amplitude="-37"/>
+          <electrode channelID="148" amplitude="-37"/>
+          <electrode channelID="137" amplitude="-37"/>
+          <electrode channelID="125" amplitude="-78"/>
+          <electrode channelID="124" amplitude="-37"/>
+          <electrode channelID="123" amplitude="-37"/>
+          <electrode channelID="122" amplitude="-37"/>
+          <electrode channelID="113" amplitude="-37"/>
+          <electrode channelID="104" amplitude="-37"/>
+          <electrode channelID="82" amplitude="-37"/>
+          <electrode channelID="68" amplitude="-37"/>
+          <electrode channelID="118" amplitude="-78"/>
+          <electrode channelID="100" amplitude="-78"/>
+          <electrode channelID="89" amplitude="-78"/>
+          <electrode channelID="80" amplitude="-78"/>
+          <electrode channelID="210" amplitude="-37"/>
+          <electrode channelID="211" amplitude="-37"/>
+          <electrode channelID="212" amplitude="-37"/>
+          <electrode channelID="213" amplitude="-37"/>
+          <electrode channelID="214" amplitude="0"/>
+          <electrode channelID="61" amplitude="-37"/>
+          <electrode channelID="48" amplitude="-37"/>
+          <electrode channelID="55" amplitude="-37"/>
+          <electrode channelID="40" amplitude="-37"/>
+          <electrode channelID="29" amplitude="0"/>
+          <electrode channelID="206" amplitude="0"/>
+          <electrode channelID="197" amplitude="0"/>
+          <electrode channelID="185" amplitude="0"/>
+          <electrode channelID="8" amplitude="0"/>
+          <electrode channelID="16" amplitude="0"/>
+          <electrode channelID="23" amplitude="0"/>
+          <electrode channelID="84" amplitude="150"/>
+          <electrode channelID="71" amplitude="150"/>
+          <electrode channelID="170" amplitude="150"/>
+          <electrode channelID="172" amplitude="150"/>
+          <electrode channelID="41" amplitude="-37"/>
+          <electrode channelID="42" amplitude="-37"/>
+          <electrode channelID="43" amplitude="-37"/>
+          <electrode channelID="44" amplitude="-37"/>
+          <electrode channelID="131" amplitude="-37"/>
+          <electrode channelID="205" amplitude="-37"/>
+          <electrode channelID="196" amplitude="-37"/>
+          <electrode channelID="184" amplitude="-37"/>
+          </spatialPattern>
+        </block>
+        <block id="1">
+          <duration_ms>16000</duration_ms>
+          <rest_ms>0</rest_ms>
+          <waveformId>1</waveformId>
+          <spatialPattern name="posterior_1.5mA">
+          <electrode channelID="171" amplitude="150"/>
+          <electrode channelID="161" amplitude="150"/>
+          <electrode channelID="162" amplitude="150"/>
+          <electrode channelID="152" amplitude="0"/>
+          <electrode channelID="153" amplitude="0"/>
+          <electrode channelID="85" amplitude="150"/>
+          <electrode channelID="86" amplitude="0"/>
+          <electrode channelID="75" amplitude="150"/>
+          <electrode channelID="76" amplitude="150"/>
+          <electrode channelID="77" amplitude="0"/>
+          <electrode channelID="201" amplitude="-37"/>
+          <electrode channelID="190" amplitude="-37"/>
+          <electrode channelID="176" amplitude="-37"/>
+          <electrode channelID="167" amplitude="-37"/>
+          <electrode channelID="157" amplitude="-37"/>
+          <electrode channelID="148" amplitude="-37"/>
+          <electrode channelID="137" amplitude="-37"/>
+          <electrode channelID="125" amplitude="-78"/>
+          <electrode channelID="124" amplitude="-37"/>
+          <electrode channelID="123" amplitude="-37"/>
+          <electrode channelID="122" amplitude="-37"/>
+          <electrode channelID="113" amplitude="-37"/>
+          <electrode channelID="104" amplitude="-37"/>
+          <electrode channelID="82" amplitude="-37"/>
+          <electrode channelID="68" amplitude="-37"/>
+          <electrode channelID="118" amplitude="-78"/>
+          <electrode channelID="100" amplitude="-78"/>
+          <electrode channelID="89" amplitude="-78"/>
+          <electrode channelID="80" amplitude="-78"/>
+          <electrode channelID="210" amplitude="-37"/>
+          <electrode channelID="211" amplitude="-37"/>
+          <electrode channelID="212" amplitude="-37"/>
+          <electrode channelID="213" amplitude="-37"/>
+          <electrode channelID="214" amplitude="0"/>
+          <electrode channelID="61" amplitude="-37"/>
+          <electrode channelID="48" amplitude="-37"/>
+          <electrode channelID="55" amplitude="-37"/>
+          <electrode channelID="40" amplitude="-37"/>
+          <electrode channelID="29" amplitude="0"/>
+          <electrode channelID="206" amplitude="0"/>
+          <electrode channelID="197" amplitude="0"/>
+          <electrode channelID="185" amplitude="0"/>
+          <electrode channelID="8" amplitude="0"/>
+          <electrode channelID="16" amplitude="0"/>
+          <electrode channelID="23" amplitude="0"/>
+          <electrode channelID="84" amplitude="150"/>
+          <electrode channelID="71" amplitude="150"/>
+          <electrode channelID="170" amplitude="150"/>
+          <electrode channelID="172" amplitude="150"/>
+          <electrode channelID="41" amplitude="-37"/>
+          <electrode channelID="42" amplitude="-37"/>
+          <electrode channelID="43" amplitude="-37"/>
+          <electrode channelID="44" amplitude="-37"/>
+          <electrode channelID="131" amplitude="-37"/>
+          <electrode channelID="205" amplitude="-37"/>
+          <electrode channelID="196" amplitude="-37"/>
+          <electrode channelID="184" amplitude="-37"/>
+          </spatialPattern>
+        </block>
+        <block id="2">
+          <duration_ms>19000</duration_ms>
+          <rest_ms>0</rest_ms>
+          <waveformId>2</waveformId>
+          <spatialPattern name="Empty Set">
+          </spatialPattern>
+        </block>
+        <block id="3">
+          <duration_ms>3000</duration_ms>
+          <rest_ms>0</rest_ms>
+          <waveformId>0</waveformId>
+          <spatialPattern name="frontal_1.5mA">
+          <electrode channelID="209" amplitude="-37"/>
+          <electrode channelID="219" amplitude="-37"/>
+          <electrode channelID="0" amplitude="-37"/>
+          <electrode channelID="9" amplitude="-37"/>
+          <electrode channelID="10" amplitude="0"/>
+          <electrode channelID="11" amplitude="0"/>
+          <electrode channelID="201" amplitude="-37"/>
+          <electrode channelID="191" amplitude="-37"/>
+          <electrode channelID="178" amplitude="0"/>
+          <electrode channelID="170" amplitude="0"/>
+          <electrode channelID="161" amplitude="0"/>
+          <electrode channelID="203" amplitude="0"/>
+          <electrode channelID="194" amplitude="0"/>
+          <electrode channelID="204" amplitude="150"/>
+          <electrode channelID="195" amplitude="0"/>
+          <electrode channelID="205" amplitude="150"/>
+          <electrode channelID="41" amplitude="150"/>
+          <electrode channelID="50" amplitude="0"/>
+          <electrode channelID="56" amplitude="0"/>
+          <electrode channelID="57" amplitude="0"/>
+          <electrode channelID="49" amplitude="150"/>
+          <electrode channelID="12" amplitude="0"/>
+          <electrode channelID="13" amplitude="0"/>
+          <electrode channelID="14" amplitude="-70"/>
+          <electrode channelID="21" amplitude="0"/>
+          <electrode channelID="27" amplitude="0"/>
+          <electrode channelID="33" amplitude="0"/>
+          <electrode channelID="37" amplitude="0"/>
+          <electrode channelID="45" amplitude="-37"/>
+          <electrode channelID="53" amplitude="-37"/>
+          <electrode channelID="60" amplitude="-37"/>
+          <electrode channelID="67" amplitude="-37"/>
+          <electrode channelID="68" amplitude="-37"/>
+          <electrode channelID="73" amplitude="-37"/>
+          <electrode channelID="83" amplitude="0"/>
+          <electrode channelID="84" amplitude="0"/>
+          <electrode channelID="85" amplitude="0"/>
+          <electrode channelID="7" amplitude="-86"/>
+          <electrode channelID="185" amplitude="-37"/>
+          <electrode channelID="8" amplitude="-37"/>
+          <electrode channelID="44" amplitude="-37"/>
+          <electrode channelID="131" amplitude="-37"/>
+          <electrode channelID="79" amplitude="-37"/>
+          <electrode channelID="130" amplitude="-37"/>
+          <electrode channelID="87" amplitude="0"/>
+          <electrode channelID="86" amplitude="0"/>
+          <electrode channelID="141" amplitude="0"/>
+          <electrode channelID="152" amplitude="0"/>
+          <electrode channelID="40" amplitude="150"/>
+          <electrode channelID="48" amplitude="150"/>
+          <electrode channelID="29" amplitude="150"/>
+          <electrode channelID="20" amplitude="-86"/>
+          <electrode channelID="26" amplitude="-37"/>
+          <electrode channelID="32" amplitude="-37"/>
+          <electrode channelID="36" amplitude="-37"/>
+          <electrode channelID="17" amplitude="-37"/>
+          <electrode channelID="18" amplitude="-37"/>
+          <electrode channelID="19" amplitude="-37"/>
+          <electrode channelID="214" amplitude="150"/>
+          <electrode channelID="213" amplitude="150"/>
+          <electrode channelID="212" amplitude="150"/>
+          <electrode channelID="74" amplitude="-37"/>
+          <electrode channelID="75" amplitude="-37"/>
+          <electrode channelID="76" amplitude="-37"/>
+          <electrode channelID="77" amplitude="-37"/>
+          <electrode channelID="78" amplitude="-37"/>
+          <electrode channelID="179" amplitude="-37"/>
+          <electrode channelID="171" amplitude="-37"/>
+          <electrode channelID="162" amplitude="-37"/>
+          <electrode channelID="153" amplitude="-37"/>
+          <electrode channelID="142" amplitude="-37"/>
+          </spatialPattern>
+        </block>
+        <block id="4">
+          <duration_ms>16000</duration_ms>
+          <rest_ms>0</rest_ms>
+          <waveformId>3</waveformId>
+          <spatialPattern name="frontal_1.5mA">
+          <electrode channelID="209" amplitude="-37"/>
+          <electrode channelID="219" amplitude="-37"/>
+          <electrode channelID="0" amplitude="-37"/>
+          <electrode channelID="9" amplitude="-37"/>
+          <electrode channelID="10" amplitude="0"/>
+          <electrode channelID="11" amplitude="0"/>
+          <electrode channelID="201" amplitude="-37"/>
+          <electrode channelID="191" amplitude="-37"/>
+          <electrode channelID="178" amplitude="0"/>
+          <electrode channelID="170" amplitude="0"/>
+          <electrode channelID="161" amplitude="0"/>
+          <electrode channelID="203" amplitude="0"/>
+          <electrode channelID="194" amplitude="0"/>
+          <electrode channelID="204" amplitude="150"/>
+          <electrode channelID="195" amplitude="0"/>
+          <electrode channelID="205" amplitude="150"/>
+          <electrode channelID="41" amplitude="150"/>
+          <electrode channelID="50" amplitude="0"/>
+          <electrode channelID="56" amplitude="0"/>
+          <electrode channelID="57" amplitude="0"/>
+          <electrode channelID="49" amplitude="150"/>
+          <electrode channelID="12" amplitude="0"/>
+          <electrode channelID="13" amplitude="0"/>
+          <electrode channelID="14" amplitude="-70"/>
+          <electrode channelID="21" amplitude="0"/>
+          <electrode channelID="27" amplitude="0"/>
+          <electrode channelID="33" amplitude="0"/>
+          <electrode channelID="37" amplitude="0"/>
+          <electrode channelID="45" amplitude="-37"/>
+          <electrode channelID="53" amplitude="-37"/>
+          <electrode channelID="60" amplitude="-37"/>
+          <electrode channelID="67" amplitude="-37"/>
+          <electrode channelID="68" amplitude="-37"/>
+          <electrode channelID="73" amplitude="-37"/>
+          <electrode channelID="83" amplitude="0"/>
+          <electrode channelID="84" amplitude="0"/>
+          <electrode channelID="85" amplitude="0"/>
+          <electrode channelID="7" amplitude="-86"/>
+          <electrode channelID="185" amplitude="-37"/>
+          <electrode channelID="8" amplitude="-37"/>
+          <electrode channelID="44" amplitude="-37"/>
+          <electrode channelID="131" amplitude="-37"/>
+          <electrode channelID="79" amplitude="-37"/>
+          <electrode channelID="130" amplitude="-37"/>
+          <electrode channelID="87" amplitude="0"/>
+          <electrode channelID="86" amplitude="0"/>
+          <electrode channelID="141" amplitude="0"/>
+          <electrode channelID="152" amplitude="0"/>
+          <electrode channelID="40" amplitude="150"/>
+          <electrode channelID="48" amplitude="150"/>
+          <electrode channelID="29" amplitude="150"/>
+          <electrode channelID="20" amplitude="-86"/>
+          <electrode channelID="26" amplitude="-37"/>
+          <electrode channelID="32" amplitude="-37"/>
+          <electrode channelID="36" amplitude="-37"/>
+          <electrode channelID="17" amplitude="-37"/>
+          <electrode channelID="18" amplitude="-37"/>
+          <electrode channelID="19" amplitude="-37"/>
+          <electrode channelID="214" amplitude="150"/>
+          <electrode channelID="213" amplitude="150"/>
+          <electrode channelID="212" amplitude="150"/>
+          <electrode channelID="74" amplitude="-37"/>
+          <electrode channelID="75" amplitude="-37"/>
+          <electrode channelID="76" amplitude="-37"/>
+          <electrode channelID="77" amplitude="-37"/>
+          <electrode channelID="78" amplitude="-37"/>
+          <electrode channelID="179" amplitude="-37"/>
+          <electrode channelID="171" amplitude="-37"/>
+          <electrode channelID="162" amplitude="-37"/>
+          <electrode channelID="153" amplitude="-37"/>
+          <electrode channelID="142" amplitude="-37"/>
+          </spatialPattern>
+        </block>
+        <block id="5">
+          <duration_ms>20000</duration_ms>
+          <rest_ms>0</rest_ms>
+          <waveformId>4</waveformId>
+          <spatialPattern name="Empty Set">
+          </spatialPattern>
+        </block>
+        <block id="6">
+          <duration_ms>20000</duration_ms>
+          <rest_ms>0</rest_ms>
+          <waveformId>5</waveformId>
+          <spatialPattern name="Empty Set">
+          </spatialPattern>
+        </block>
+        <block id="7">
+          <duration_ms>3000</duration_ms>
+          <rest_ms>0</rest_ms>
+          <waveformId>0</waveformId>
+          <spatialPattern name="frontal_1.5mA">
+          <electrode channelID="209" amplitude="-37"/>
+          <electrode channelID="219" amplitude="-37"/>
+          <electrode channelID="0" amplitude="-37"/>
+          <electrode channelID="9" amplitude="-37"/>
+          <electrode channelID="10" amplitude="0"/>
+          <electrode channelID="11" amplitude="0"/>
+          <electrode channelID="201" amplitude="-37"/>
+          <electrode channelID="191" amplitude="-37"/>
+          <electrode channelID="178" amplitude="0"/>
+          <electrode channelID="170" amplitude="0"/>
+          <electrode channelID="161" amplitude="0"/>
+          <electrode channelID="203" amplitude="0"/>
+          <electrode channelID="194" amplitude="0"/>
+          <electrode channelID="204" amplitude="150"/>
+          <electrode channelID="195" amplitude="0"/>
+          <electrode channelID="205" amplitude="150"/>
+          <electrode channelID="41" amplitude="150"/>
+          <electrode channelID="50" amplitude="0"/>
+          <electrode channelID="56" amplitude="0"/>
+          <electrode channelID="57" amplitude="0"/>
+          <electrode channelID="49" amplitude="150"/>
+          <electrode channelID="12" amplitude="0"/>
+          <electrode channelID="13" amplitude="0"/>
+          <electrode channelID="14" amplitude="-70"/>
+          <electrode channelID="21" amplitude="0"/>
+          <electrode channelID="27" amplitude="0"/>
+          <electrode channelID="33" amplitude="0"/>
+          <electrode channelID="37" amplitude="0"/>
+          <electrode channelID="45" amplitude="-37"/>
+          <electrode channelID="53" amplitude="-37"/>
+          <electrode channelID="60" amplitude="-37"/>
+          <electrode channelID="67" amplitude="-37"/>
+          <electrode channelID="68" amplitude="-37"/>
+          <electrode channelID="73" amplitude="-37"/>
+          <electrode channelID="83" amplitude="0"/>
+          <electrode channelID="84" amplitude="0"/>
+          <electrode channelID="85" amplitude="0"/>
+          <electrode channelID="7" amplitude="-86"/>
+          <electrode channelID="185" amplitude="-37"/>
+          <electrode channelID="8" amplitude="-37"/>
+          <electrode channelID="44" amplitude="-37"/>
+          <electrode channelID="131" amplitude="-37"/>
+          <electrode channelID="79" amplitude="-37"/>
+          <electrode channelID="130" amplitude="-37"/>
+          <electrode channelID="87" amplitude="0"/>
+          <electrode channelID="86" amplitude="0"/>
+          <electrode channelID="141" amplitude="0"/>
+          <electrode channelID="152" amplitude="0"/>
+          <electrode channelID="40" amplitude="150"/>
+          <electrode channelID="48" amplitude="150"/>
+          <electrode channelID="29" amplitude="150"/>
+          <electrode channelID="20" amplitude="-86"/>
+          <electrode channelID="26" amplitude="-37"/>
+          <electrode channelID="32" amplitude="-37"/>
+          <electrode channelID="36" amplitude="-37"/>
+          <electrode channelID="17" amplitude="-37"/>
+          <electrode channelID="18" amplitude="-37"/>
+          <electrode channelID="19" amplitude="-37"/>
+          <electrode channelID="214" amplitude="150"/>
+          <electrode channelID="213" amplitude="150"/>
+          <electrode channelID="212" amplitude="150"/>
+          <electrode channelID="74" amplitude="-37"/>
+          <electrode channelID="75" amplitude="-37"/>
+          <electrode channelID="76" amplitude="-37"/>
+          <electrode channelID="77" amplitude="-37"/>
+          <electrode channelID="78" amplitude="-37"/>
+          <electrode channelID="179" amplitude="-37"/>
+          <electrode channelID="171" amplitude="-37"/>
+          <electrode channelID="162" amplitude="-37"/>
+          <electrode channelID="153" amplitude="-37"/>
+          <electrode channelID="142" amplitude="-37"/>
+          </spatialPattern>
+        </block>
+        <block id="8">
+          <duration_ms>16000</duration_ms>
+          <rest_ms>0</rest_ms>
+          <waveformId>1</waveformId>
+          <spatialPattern name="frontal_1.5mA">
+          <electrode channelID="209" amplitude="-37"/>
+          <electrode channelID="219" amplitude="-37"/>
+          <electrode channelID="0" amplitude="-37"/>
+          <electrode channelID="9" amplitude="-37"/>
+          <electrode channelID="10" amplitude="0"/>
+          <electrode channelID="11" amplitude="0"/>
+          <electrode channelID="201" amplitude="-37"/>
+          <electrode channelID="191" amplitude="-37"/>
+          <electrode channelID="178" amplitude="0"/>
+          <electrode channelID="170" amplitude="0"/>
+          <electrode channelID="161" amplitude="0"/>
+          <electrode channelID="203" amplitude="0"/>
+          <electrode channelID="194" amplitude="0"/>
+          <electrode channelID="204" amplitude="150"/>
+          <electrode channelID="195" amplitude="0"/>
+          <electrode channelID="205" amplitude="150"/>
+          <electrode channelID="41" amplitude="150"/>
+          <electrode channelID="50" amplitude="0"/>
+          <electrode channelID="56" amplitude="0"/>
+          <electrode channelID="57" amplitude="0"/>
+          <electrode channelID="49" amplitude="150"/>
+          <electrode channelID="12" amplitude="0"/>
+          <electrode channelID="13" amplitude="0"/>
+          <electrode channelID="14" amplitude="-70"/>
+          <electrode channelID="21" amplitude="0"/>
+          <electrode channelID="27" amplitude="0"/>
+          <electrode channelID="33" amplitude="0"/>
+          <electrode channelID="37" amplitude="0"/>
+          <electrode channelID="45" amplitude="-37"/>
+          <electrode channelID="53" amplitude="-37"/>
+          <electrode channelID="60" amplitude="-37"/>
+          <electrode channelID="67" amplitude="-37"/>
+          <electrode channelID="68" amplitude="-37"/>
+          <electrode channelID="73" amplitude="-37"/>
+          <electrode channelID="83" amplitude="0"/>
+          <electrode channelID="84" amplitude="0"/>
+          <electrode channelID="85" amplitude="0"/>
+          <electrode channelID="7" amplitude="-86"/>
+          <electrode channelID="185" amplitude="-37"/>
+          <electrode channelID="8" amplitude="-37"/>
+          <electrode channelID="44" amplitude="-37"/>
+          <electrode channelID="131" amplitude="-37"/>
+          <electrode channelID="79" amplitude="-37"/>
+          <electrode channelID="130" amplitude="-37"/>
+          <electrode channelID="87" amplitude="0"/>
+          <electrode channelID="86" amplitude="0"/>
+          <electrode channelID="141" amplitude="0"/>
+          <electrode channelID="152" amplitude="0"/>
+          <electrode channelID="40" amplitude="150"/>
+          <electrode channelID="48" amplitude="150"/>
+          <electrode channelID="29" amplitude="150"/>
+          <electrode channelID="20" amplitude="-86"/>
+          <electrode channelID="26" amplitude="-37"/>
+          <electrode channelID="32" amplitude="-37"/>
+          <electrode channelID="36" amplitude="-37"/>
+          <electrode channelID="17" amplitude="-37"/>
+          <electrode channelID="18" amplitude="-37"/>
+          <electrode channelID="19" amplitude="-37"/>
+          <electrode channelID="214" amplitude="150"/>
+          <electrode channelID="213" amplitude="150"/>
+          <electrode channelID="212" amplitude="150"/>
+          <electrode channelID="74" amplitude="-37"/>
+          <electrode channelID="75" amplitude="-37"/>
+          <electrode channelID="76" amplitude="-37"/>
+          <electrode channelID="77" amplitude="-37"/>
+          <electrode channelID="78" amplitude="-37"/>
+          <electrode channelID="179" amplitude="-37"/>
+          <electrode channelID="171" amplitude="-37"/>
+          <electrode channelID="162" amplitude="-37"/>
+          <electrode channelID="153" amplitude="-37"/>
+          <electrode channelID="142" amplitude="-37"/>
+          </spatialPattern>
+        </block>
+        <block id="9">
+          <duration_ms>20000</duration_ms>
+          <rest_ms>0</rest_ms>
+          <waveformId>6</waveformId>
+          <spatialPattern name="Empty Set">
+          </spatialPattern>
+        </block>
+        <block id="10">
+          <duration_ms>20000</duration_ms>
+          <rest_ms>0</rest_ms>
+          <waveformId>7</waveformId>
+          <spatialPattern name="Empty Set">
+          </spatialPattern>
+        </block>
+        <block id="11">
+          <duration_ms>3000</duration_ms>
+          <rest_ms>0</rest_ms>
+          <waveformId>0</waveformId>
+          <spatialPattern name="posterior_1.5mA">
+          <electrode channelID="171" amplitude="150"/>
+          <electrode channelID="161" amplitude="150"/>
+          <electrode channelID="162" amplitude="150"/>
+          <electrode channelID="152" amplitude="0"/>
+          <electrode channelID="153" amplitude="0"/>
+          <electrode channelID="85" amplitude="150"/>
+          <electrode channelID="86" amplitude="0"/>
+          <electrode channelID="75" amplitude="150"/>
+          <electrode channelID="76" amplitude="150"/>
+          <electrode channelID="77" amplitude="0"/>
+          <electrode channelID="201" amplitude="-37"/>
+          <electrode channelID="190" amplitude="-37"/>
+          <electrode channelID="176" amplitude="-37"/>
+          <electrode channelID="167" amplitude="-37"/>
+          <electrode channelID="157" amplitude="-37"/>
+          <electrode channelID="148" amplitude="-37"/>
+          <electrode channelID="137" amplitude="-37"/>
+          <electrode channelID="125" amplitude="-78"/>
+          <electrode channelID="124" amplitude="-37"/>
+          <electrode channelID="123" amplitude="-37"/>
+          <electrode channelID="122" amplitude="-37"/>
+          <electrode channelID="113" amplitude="-37"/>
+          <electrode channelID="104" amplitude="-37"/>
+          <electrode channelID="82" amplitude="-37"/>
+          <electrode channelID="68" amplitude="-37"/>
+          <electrode channelID="118" amplitude="-78"/>
+          <electrode channelID="100" amplitude="-78"/>
+          <electrode channelID="89" amplitude="-78"/>
+          <electrode channelID="80" amplitude="-78"/>
+          <electrode channelID="210" amplitude="-37"/>
+          <electrode channelID="211" amplitude="-37"/>
+          <electrode channelID="212" amplitude="-37"/>
+          <electrode channelID="213" amplitude="-37"/>
+          <electrode channelID="214" amplitude="0"/>
+          <electrode channelID="61" amplitude="-37"/>
+          <electrode channelID="48" amplitude="-37"/>
+          <electrode channelID="55" amplitude="-37"/>
+          <electrode channelID="40" amplitude="-37"/>
+          <electrode channelID="29" amplitude="0"/>
+          <electrode channelID="206" amplitude="0"/>
+          <electrode channelID="197" amplitude="0"/>
+          <electrode channelID="185" amplitude="0"/>
+          <electrode channelID="8" amplitude="0"/>
+          <electrode channelID="16" amplitude="0"/>
+          <electrode channelID="23" amplitude="0"/>
+          <electrode channelID="84" amplitude="150"/>
+          <electrode channelID="71" amplitude="150"/>
+          <electrode channelID="170" amplitude="150"/>
+          <electrode channelID="172" amplitude="150"/>
+          <electrode channelID="41" amplitude="-37"/>
+          <electrode channelID="42" amplitude="-37"/>
+          <electrode channelID="43" amplitude="-37"/>
+          <electrode channelID="44" amplitude="-37"/>
+          <electrode channelID="131" amplitude="-37"/>
+          <electrode channelID="205" amplitude="-37"/>
+          <electrode channelID="196" amplitude="-37"/>
+          <electrode channelID="184" amplitude="-37"/>
+          </spatialPattern>
+        </block>
+        <block id="12">
+          <duration_ms>16000</duration_ms>
+          <rest_ms>0</rest_ms>
+          <waveformId>1</waveformId>
+          <spatialPattern name="posterior_1.5mA">
+          <electrode channelID="171" amplitude="150"/>
+          <electrode channelID="161" amplitude="150"/>
+          <electrode channelID="162" amplitude="150"/>
+          <electrode channelID="152" amplitude="0"/>
+          <electrode channelID="153" amplitude="0"/>
+          <electrode channelID="85" amplitude="150"/>
+          <electrode channelID="86" amplitude="0"/>
+          <electrode channelID="75" amplitude="150"/>
+          <electrode channelID="76" amplitude="150"/>
+          <electrode channelID="77" amplitude="0"/>
+          <electrode channelID="201" amplitude="-37"/>
+          <electrode channelID="190" amplitude="-37"/>
+          <electrode channelID="176" amplitude="-37"/>
+          <electrode channelID="167" amplitude="-37"/>
+          <electrode channelID="157" amplitude="-37"/>
+          <electrode channelID="148" amplitude="-37"/>
+          <electrode channelID="137" amplitude="-37"/>
+          <electrode channelID="125" amplitude="-78"/>
+          <electrode channelID="124" amplitude="-37"/>
+          <electrode channelID="123" amplitude="-37"/>
+          <electrode channelID="122" amplitude="-37"/>
+          <electrode channelID="113" amplitude="-37"/>
+          <electrode channelID="104" amplitude="-37"/>
+          <electrode channelID="82" amplitude="-37"/>
+          <electrode channelID="68" amplitude="-37"/>
+          <electrode channelID="118" amplitude="-78"/>
+          <electrode channelID="100" amplitude="-78"/>
+          <electrode channelID="89" amplitude="-78"/>
+          <electrode channelID="80" amplitude="-78"/>
+          <electrode channelID="210" amplitude="-37"/>
+          <electrode channelID="211" amplitude="-37"/>
+          <electrode channelID="212" amplitude="-37"/>
+          <electrode channelID="213" amplitude="-37"/>
+          <electrode channelID="214" amplitude="0"/>
+          <electrode channelID="61" amplitude="-37"/>
+          <electrode channelID="48" amplitude="-37"/>
+          <electrode channelID="55" amplitude="-37"/>
+          <electrode channelID="40" amplitude="-37"/>
+          <electrode channelID="29" amplitude="0"/>
+          <electrode channelID="206" amplitude="0"/>
+          <electrode channelID="197" amplitude="0"/>
+          <electrode channelID="185" amplitude="0"/>
+          <electrode channelID="8" amplitude="0"/>
+          <electrode channelID="16" amplitude="0"/>
+          <electrode channelID="23" amplitude="0"/>
+          <electrode channelID="84" amplitude="150"/>
+          <electrode channelID="71" amplitude="150"/>
+          <electrode channelID="170" amplitude="150"/>
+          <electrode channelID="172" amplitude="150"/>
+          <electrode channelID="41" amplitude="-37"/>
+          <electrode channelID="42" amplitude="-37"/>
+          <electrode channelID="43" amplitude="-37"/>
+          <electrode channelID="44" amplitude="-37"/>
+          <electrode channelID="131" amplitude="-37"/>
+          <electrode channelID="205" amplitude="-37"/>
+          <electrode channelID="196" amplitude="-37"/>
+          <electrode channelID="184" amplitude="-37"/>
+          </spatialPattern>
+        </block>
+        <block id="13">
+          <duration_ms>20000</duration_ms>
+          <rest_ms>0</rest_ms>
+          <waveformId>8</waveformId>
+          <spatialPattern name="Empty Set">
+          </spatialPattern>
+        </block>
+        <block id="14">
+          <duration_ms>3000</duration_ms>
+          <rest_ms>0</rest_ms>
+          <waveformId>0</waveformId>
+          <spatialPattern name="frontal_1.5mA">
+          <electrode channelID="209" amplitude="-37"/>
+          <electrode channelID="219" amplitude="-37"/>
+          <electrode channelID="0" amplitude="-37"/>
+          <electrode channelID="9" amplitude="-37"/>
+          <electrode channelID="10" amplitude="0"/>
+          <electrode channelID="11" amplitude="0"/>
+          <electrode channelID="201" amplitude="-37"/>
+          <electrode channelID="191" amplitude="-37"/>
+          <electrode channelID="178" amplitude="0"/>
+          <electrode channelID="170" amplitude="0"/>
+          <electrode channelID="161" amplitude="0"/>
+          <electrode channelID="203" amplitude="0"/>
+          <electrode channelID="194" amplitude="0"/>
+          <electrode channelID="204" amplitude="150"/>
+          <electrode channelID="195" amplitude="0"/>
+          <electrode channelID="205" amplitude="150"/>
+          <electrode channelID="41" amplitude="150"/>
+          <electrode channelID="50" amplitude="0"/>
+          <electrode channelID="56" amplitude="0"/>
+          <electrode channelID="57" amplitude="0"/>
+          <electrode channelID="49" amplitude="150"/>
+          <electrode channelID="12" amplitude="0"/>
+          <electrode channelID="13" amplitude="0"/>
+          <electrode channelID="14" amplitude="-70"/>
+          <electrode channelID="21" amplitude="0"/>
+          <electrode channelID="27" amplitude="0"/>
+          <electrode channelID="33" amplitude="0"/>
+          <electrode channelID="37" amplitude="0"/>
+          <electrode channelID="45" amplitude="-37"/>
+          <electrode channelID="53" amplitude="-37"/>
+          <electrode channelID="60" amplitude="-37"/>
+          <electrode channelID="67" amplitude="-37"/>
+          <electrode channelID="68" amplitude="-37"/>
+          <electrode channelID="73" amplitude="-37"/>
+          <electrode channelID="83" amplitude="0"/>
+          <electrode channelID="84" amplitude="0"/>
+          <electrode channelID="85" amplitude="0"/>
+          <electrode channelID="7" amplitude="-86"/>
+          <electrode channelID="185" amplitude="-37"/>
+          <electrode channelID="8" amplitude="-37"/>
+          <electrode channelID="44" amplitude="-37"/>
+          <electrode channelID="131" amplitude="-37"/>
+          <electrode channelID="79" amplitude="-37"/>
+          <electrode channelID="130" amplitude="-37"/>
+          <electrode channelID="87" amplitude="0"/>
+          <electrode channelID="86" amplitude="0"/>
+          <electrode channelID="141" amplitude="0"/>
+          <electrode channelID="152" amplitude="0"/>
+          <electrode channelID="40" amplitude="150"/>
+          <electrode channelID="48" amplitude="150"/>
+          <electrode channelID="29" amplitude="150"/>
+          <electrode channelID="20" amplitude="-86"/>
+          <electrode channelID="26" amplitude="-37"/>
+          <electrode channelID="32" amplitude="-37"/>
+          <electrode channelID="36" amplitude="-37"/>
+          <electrode channelID="17" amplitude="-37"/>
+          <electrode channelID="18" amplitude="-37"/>
+          <electrode channelID="19" amplitude="-37"/>
+          <electrode channelID="214" amplitude="150"/>
+          <electrode channelID="213" amplitude="150"/>
+          <electrode channelID="212" amplitude="150"/>
+          <electrode channelID="74" amplitude="-37"/>
+          <electrode channelID="75" amplitude="-37"/>
+          <electrode channelID="76" amplitude="-37"/>
+          <electrode channelID="77" amplitude="-37"/>
+          <electrode channelID="78" amplitude="-37"/>
+          <electrode channelID="179" amplitude="-37"/>
+          <electrode channelID="171" amplitude="-37"/>
+          <electrode channelID="162" amplitude="-37"/>
+          <electrode channelID="153" amplitude="-37"/>
+          <electrode channelID="142" amplitude="-37"/>
+          </spatialPattern>
+        </block>
+        <block id="15">
+          <duration_ms>16000</duration_ms>
+          <rest_ms>0</rest_ms>
+          <waveformId>3</waveformId>
+          <spatialPattern name="frontal_1.5mA">
+          <electrode channelID="209" amplitude="-37"/>
+          <electrode channelID="219" amplitude="-37"/>
+          <electrode channelID="0" amplitude="-37"/>
+          <electrode channelID="9" amplitude="-37"/>
+          <electrode channelID="10" amplitude="0"/>
+          <electrode channelID="11" amplitude="0"/>
+          <electrode channelID="201" amplitude="-37"/>
+          <electrode channelID="191" amplitude="-37"/>
+          <electrode channelID="178" amplitude="0"/>
+          <electrode channelID="170" amplitude="0"/>
+          <electrode channelID="161" amplitude="0"/>
+          <electrode channelID="203" amplitude="0"/>
+          <electrode channelID="194" amplitude="0"/>
+          <electrode channelID="204" amplitude="150"/>
+          <electrode channelID="195" amplitude="0"/>
+          <electrode channelID="205" amplitude="150"/>
+          <electrode channelID="41" amplitude="150"/>
+          <electrode channelID="50" amplitude="0"/>
+          <electrode channelID="56" amplitude="0"/>
+          <electrode channelID="57" amplitude="0"/>
+          <electrode channelID="49" amplitude="150"/>
+          <electrode channelID="12" amplitude="0"/>
+          <electrode channelID="13" amplitude="0"/>
+          <electrode channelID="14" amplitude="-70"/>
+          <electrode channelID="21" amplitude="0"/>
+          <electrode channelID="27" amplitude="0"/>
+          <electrode channelID="33" amplitude="0"/>
+          <electrode channelID="37" amplitude="0"/>
+          <electrode channelID="45" amplitude="-37"/>
+          <electrode channelID="53" amplitude="-37"/>
+          <electrode channelID="60" amplitude="-37"/>
+          <electrode channelID="67" amplitude="-37"/>
+          <electrode channelID="68" amplitude="-37"/>
+          <electrode channelID="73" amplitude="-37"/>
+          <electrode channelID="83" amplitude="0"/>
+          <electrode channelID="84" amplitude="0"/>
+          <electrode channelID="85" amplitude="0"/>
+          <electrode channelID="7" amplitude="-86"/>
+          <electrode channelID="185" amplitude="-37"/>
+          <electrode channelID="8" amplitude="-37"/>
+          <electrode channelID="44" amplitude="-37"/>
+          <electrode channelID="131" amplitude="-37"/>
+          <electrode channelID="79" amplitude="-37"/>
+          <electrode channelID="130" amplitude="-37"/>
+          <electrode channelID="87" amplitude="0"/>
+          <electrode channelID="86" amplitude="0"/>
+          <electrode channelID="141" amplitude="0"/>
+          <electrode channelID="152" amplitude="0"/>
+          <electrode channelID="40" amplitude="150"/>
+          <electrode channelID="48" amplitude="150"/>
+          <electrode channelID="29" amplitude="150"/>
+          <electrode channelID="20" amplitude="-86"/>
+          <electrode channelID="26" amplitude="-37"/>
+          <electrode channelID="32" amplitude="-37"/>
+          <electrode channelID="36" amplitude="-37"/>
+          <electrode channelID="17" amplitude="-37"/>
+          <electrode channelID="18" amplitude="-37"/>
+          <electrode channelID="19" amplitude="-37"/>
+          <electrode channelID="214" amplitude="150"/>
+          <electrode channelID="213" amplitude="150"/>
+          <electrode channelID="212" amplitude="150"/>
+          <electrode channelID="74" amplitude="-37"/>
+          <electrode channelID="75" amplitude="-37"/>
+          <electrode channelID="76" amplitude="-37"/>
+          <electrode channelID="77" amplitude="-37"/>
+          <electrode channelID="78" amplitude="-37"/>
+          <electrode channelID="179" amplitude="-37"/>
+          <electrode channelID="171" amplitude="-37"/>
+          <electrode channelID="162" amplitude="-37"/>
+          <electrode channelID="153" amplitude="-37"/>
+          <electrode channelID="142" amplitude="-37"/>
+          </spatialPattern>
+        </block>
+        <block id="16">
+          <duration_ms>20000</duration_ms>
+          <rest_ms>0</rest_ms>
+          <waveformId>9</waveformId>
+          <spatialPattern name="Empty Set">
+          </spatialPattern>
+        </block>
+        <block id="17">
+          <duration_ms>3000</duration_ms>
+          <rest_ms>0</rest_ms>
+          <waveformId>0</waveformId>
+          <spatialPattern name="posterior_1.5mA">
+          <electrode channelID="171" amplitude="150"/>
+          <electrode channelID="161" amplitude="150"/>
+          <electrode channelID="162" amplitude="150"/>
+          <electrode channelID="152" amplitude="0"/>
+          <electrode channelID="153" amplitude="0"/>
+          <electrode channelID="85" amplitude="150"/>
+          <electrode channelID="86" amplitude="0"/>
+          <electrode channelID="75" amplitude="150"/>
+          <electrode channelID="76" amplitude="150"/>
+          <electrode channelID="77" amplitude="0"/>
+          <electrode channelID="201" amplitude="-37"/>
+          <electrode channelID="190" amplitude="-37"/>
+          <electrode channelID="176" amplitude="-37"/>
+          <electrode channelID="167" amplitude="-37"/>
+          <electrode channelID="157" amplitude="-37"/>
+          <electrode channelID="148" amplitude="-37"/>
+          <electrode channelID="137" amplitude="-37"/>
+          <electrode channelID="125" amplitude="-78"/>
+          <electrode channelID="124" amplitude="-37"/>
+          <electrode channelID="123" amplitude="-37"/>
+          <electrode channelID="122" amplitude="-37"/>
+          <electrode channelID="113" amplitude="-37"/>
+          <electrode channelID="104" amplitude="-37"/>
+          <electrode channelID="82" amplitude="-37"/>
+          <electrode channelID="68" amplitude="-37"/>
+          <electrode channelID="118" amplitude="-78"/>
+          <electrode channelID="100" amplitude="-78"/>
+          <electrode channelID="89" amplitude="-78"/>
+          <electrode channelID="80" amplitude="-78"/>
+          <electrode channelID="210" amplitude="-37"/>
+          <electrode channelID="211" amplitude="-37"/>
+          <electrode channelID="212" amplitude="-37"/>
+          <electrode channelID="213" amplitude="-37"/>
+          <electrode channelID="214" amplitude="0"/>
+          <electrode channelID="61" amplitude="-37"/>
+          <electrode channelID="48" amplitude="-37"/>
+          <electrode channelID="55" amplitude="-37"/>
+          <electrode channelID="40" amplitude="-37"/>
+          <electrode channelID="29" amplitude="0"/>
+          <electrode channelID="206" amplitude="0"/>
+          <electrode channelID="197" amplitude="0"/>
+          <electrode channelID="185" amplitude="0"/>
+          <electrode channelID="8" amplitude="0"/>
+          <electrode channelID="16" amplitude="0"/>
+          <electrode channelID="23" amplitude="0"/>
+          <electrode channelID="84" amplitude="150"/>
+          <electrode channelID="71" amplitude="150"/>
+          <electrode channelID="170" amplitude="150"/>
+          <electrode channelID="172" amplitude="150"/>
+          <electrode channelID="41" amplitude="-37"/>
+          <electrode channelID="42" amplitude="-37"/>
+          <electrode channelID="43" amplitude="-37"/>
+          <electrode channelID="44" amplitude="-37"/>
+          <electrode channelID="131" amplitude="-37"/>
+          <electrode channelID="205" amplitude="-37"/>
+          <electrode channelID="196" amplitude="-37"/>
+          <electrode channelID="184" amplitude="-37"/>
+          </spatialPattern>
+        </block>
+        <block id="18">
+          <duration_ms>16000</duration_ms>
+          <rest_ms>0</rest_ms>
+          <waveformId>3</waveformId>
+          <spatialPattern name="posterior_1.5mA">
+          <electrode channelID="171" amplitude="150"/>
+          <electrode channelID="161" amplitude="150"/>
+          <electrode channelID="162" amplitude="150"/>
+          <electrode channelID="152" amplitude="0"/>
+          <electrode channelID="153" amplitude="0"/>
+          <electrode channelID="85" amplitude="150"/>
+          <electrode channelID="86" amplitude="0"/>
+          <electrode channelID="75" amplitude="150"/>
+          <electrode channelID="76" amplitude="150"/>
+          <electrode channelID="77" amplitude="0"/>
+          <electrode channelID="201" amplitude="-37"/>
+          <electrode channelID="190" amplitude="-37"/>
+          <electrode channelID="176" amplitude="-37"/>
+          <electrode channelID="167" amplitude="-37"/>
+          <electrode channelID="157" amplitude="-37"/>
+          <electrode channelID="148" amplitude="-37"/>
+          <electrode channelID="137" amplitude="-37"/>
+          <electrode channelID="125" amplitude="-78"/>
+          <electrode channelID="124" amplitude="-37"/>
+          <electrode channelID="123" amplitude="-37"/>
+          <electrode channelID="122" amplitude="-37"/>
+          <electrode channelID="113" amplitude="-37"/>
+          <electrode channelID="104" amplitude="-37"/>
+          <electrode channelID="82" amplitude="-37"/>
+          <electrode channelID="68" amplitude="-37"/>
+          <electrode channelID="118" amplitude="-78"/>
+          <electrode channelID="100" amplitude="-78"/>
+          <electrode channelID="89" amplitude="-78"/>
+          <electrode channelID="80" amplitude="-78"/>
+          <electrode channelID="210" amplitude="-37"/>
+          <electrode channelID="211" amplitude="-37"/>
+          <electrode channelID="212" amplitude="-37"/>
+          <electrode channelID="213" amplitude="-37"/>
+          <electrode channelID="214" amplitude="0"/>
+          <electrode channelID="61" amplitude="-37"/>
+          <electrode channelID="48" amplitude="-37"/>
+          <electrode channelID="55" amplitude="-37"/>
+          <electrode channelID="40" amplitude="-37"/>
+          <electrode channelID="29" amplitude="0"/>
+          <electrode channelID="206" amplitude="0"/>
+          <electrode channelID="197" amplitude="0"/>
+          <electrode channelID="185" amplitude="0"/>
+          <electrode channelID="8" amplitude="0"/>
+          <electrode channelID="16" amplitude="0"/>
+          <electrode channelID="23" amplitude="0"/>
+          <electrode channelID="84" amplitude="150"/>
+          <electrode channelID="71" amplitude="150"/>
+          <electrode channelID="170" amplitude="150"/>
+          <electrode channelID="172" amplitude="150"/>
+          <electrode channelID="41" amplitude="-37"/>
+          <electrode channelID="42" amplitude="-37"/>
+          <electrode channelID="43" amplitude="-37"/>
+          <electrode channelID="44" amplitude="-37"/>
+          <electrode channelID="131" amplitude="-37"/>
+          <electrode channelID="205" amplitude="-37"/>
+          <electrode channelID="196" amplitude="-37"/>
+          <electrode channelID="184" amplitude="-37"/>
+          </spatialPattern>
+        </block>
+        <block id="19">
+          <duration_ms>20000</duration_ms>
+          <rest_ms>0</rest_ms>
+          <waveformId>10</waveformId>
+          <spatialPattern name="Empty Set">
+          </spatialPattern>
+        </block>
+      </blocks>
+    </train>
+  </trains>
+</mcf>

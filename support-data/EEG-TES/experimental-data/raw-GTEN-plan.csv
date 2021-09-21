@@ -1,0 +1,12 @@
+﻿,Ramp 1,Block 1,Ramp 2,Block 2,Ramp 3,Block 3,Ramp 4,Block 4,Ramp 5,Block 5,Ramp 6,Block 6,Ramp 7,Block 7,Ramp 8,Block 8,Ramp 9,Block 9,Ramp 10,Block 10,Ramp 11,Block 11,Ramp 12,Block 12,Ramp 13,Block 13,Ramp 14,Block 14
+Calibration,,rest,,rest,,eyes closed,,,,,,rest,ramp,calibration stim,,rest,ramp,calibration stim,,rest,ramp,calibration stim,,rest,ramp,calibration stim,,rest
+Run 1,ramp,posterior/tACS,,rest,,rest,ramp,frontal/tDCS,,rest,ramp,frontal/tACS,,rest,,rest,ramp,posterior/tACS,,rest,ramp,posterior/tDCS,,rest,ramp,frontal/tACS,,rest
+Run 2,ramp,frontal/tDCS,,rest,ramp,posterior/tACS,,rest,,rest,ramp,posterior/tDCS,,rest,ramp,frontal/tDCS,,rest,,rest,ramp,frontal/tACS,,rest,ramp,posterior/tDCS,,rest
+Run 3,ramp,frontal/tACS,,rest,ramp,posterior/tDCS,,rest,ramp,frontal/tDCS,,rest,ramp,posterior/tACS,,rest,ramp,posterior/tACS,,rest,,rest,ramp,frontal/tDCS,,rest,,rest
+Run 4,ramp,posterior/tDCS,,rest,ramp,frontal/tACS,,rest,,rest,ramp,frontal/tDCS,,rest,,rest,ramp,posterior/tDCS,,rest,ramp,frontal/tACS,,rest,ramp,posterior/tACS,,rest
+Run 5,ramp,frontal/tACS,,rest,,rest,ramp,frontal/tDCS,,rest,,rest,ramp,frontal/tACS,,rest,ramp,posterior/tACS,,rest,ramp,posterior/tDCS,,rest,ramp,posterior/tACS,,rest
+Run 6,ramp,frontal/tDCS,,rest,ramp,posterior/tDCS,,rest,ramp,frontal/tDCS,,rest,ramp,posterior/tACS,,rest,ramp,posterior/tDCS,,rest,,rest,ramp,frontal/tACS,,rest,,rest
+Run 7,ramp,frontal/tACS,,rest,ramp,frontal/tACS,,rest,ramp,posterior/tDCS,,rest,,rest,ramp,posterior/tACS,,rest,ramp,frontal/tDCS,,rest,ramp,posterior/tACS,,rest,,rest
+Run 8,ramp,posterior/tDCS,,rest,,rest,ramp,posterior/tACS,,rest,ramp,posterior/tDCS,,rest,ramp,frontal/tDCS,,rest,ramp,frontal/tACS,,rest,,rest,ramp,frontal/tDCS,,rest
+Run 9,ramp,frontal/tACS,,rest,ramp,posterior/tDCS,,rest,,rest,ramp,posterior/tACS,,rest,,rest,ramp,frontal/tDCS,,rest,ramp,posterior/tACS,,rest,ramp,frontal/tACS,,rest
+Run 10,ramp,posterior/tDCS,,rest,ramp,frontal/tDCS,,rest,ramp,posterior/tACS,,rest,ramp,posterior/tDCS,,rest,,rest,ramp,frontal/tACS,,rest,,rest,ramp,frontal/tDCS,,rest

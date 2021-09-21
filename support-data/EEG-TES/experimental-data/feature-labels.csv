@@ -1,0 +1,43 @@
+﻿INDEX,NAME,LABEL,,,,,,,,
+0,mean,Mean (µV),,,,,,,,
+1,median,Median (µV),,,,,,,,
+2,std,Standard Deviation (µV),,,,,,,,
+3,max,Maximum (µV),,,,,,,,
+4,min,Minimum (µV),,,,,,,,
+5,power_delta,Power in Delta band (µV2 / Hz),,,,,,,,
+6,power_theta,Power in Theta band (µV2 / Hz),,,,,,,,
+7,power_alpha,Power in Alpha band (µV2 / Hz),,,,,,,,
+8,power_beta,Power in Beta band (µV2 / Hz),,,,,,,,
+9,power_gamma,Power in Gamma band (µV2 / Hz),,,,,,,,
+10,dB_power_delta,Power in Delta band (dB),,,,,,,,
+11,dB_power_theta,Power in Theta band (dB),,,,,,,,
+12,dB_power_alpha,Power in Alpha band (dB),,,,,,,,
+13,dB_power_beta,Power in Beta band (dB),,,,,,,,
+14,dB_power_gamma,Power in Gamma band (dB),,,,,,,,ADD PREFIX?
+15,DN_HistogramMode_5,Mode of z-scored distribution (5-bin histogram),,,,,,,,catch22: Mode of z-scored distribution (5-bin histogram)
+16,DN_HistogramMode_10,Mode of z-scored distribution (10-bin histogram),,,,,,,,catch22: Mode of z-scored distribution (10-bin histogram)
+17,CO_f1ecac,Longest period of consecutive values above the mean,,,,,,,,catch22: Longest period of consecutive values above the mean
+18,CO_FirstMin_ac,Time intervals between successive extreme events above the mean,,,,,,,,catch22: Time intervals between successive extreme events above the mean
+19,CO_HistogramAMI_even_2_5,Time intervals between successive extreme events below the mean,,,,,,,,catch22: Time intervals between successive extreme events below the mean
+20,CO_trev_1_num,First 1 / e crossing of autocorrelation function,,,,,,,,catch22: First 1 / e crossing of autocorrelation function
+21,MD_hrv_classic_pnn40,First minimum of autocorrelation function,,,,,,,,catch22: First minimum of autocorrelation function
+22,SB_BinaryStats_mean_longstretch1,Total power in lowest fifth of frequencies in the Fourier power spectrum,,,,,,,,catch22: Total power in lowest fifth of frequencies in the Fourier power spectrum
+23,SB_TransitionMatrix_3ac_sumdiagcov,Centroid of the Fourier power spectrum,,,,,,,,catch22: Centroid of the Fourier power spectrum
+24,PD_PeriodicityWang_th0_01,Mean error from a rolling 3-sample mean forecasting,,,,,,,,catch22: Mean error from a rolling 3-sample mean forecasting
+25,CO_Embed2_Dist_tau_d_expfit_meandiff,"Time-reversibility statistic, ⟨(xt+1−xt)3⟩t⟨(xt+1−xt)3⟩t",,,,,,,,"catch22: Time-reversibility statistic, ⟨(xt+1−xt)3⟩t⟨(xt+1−xt)3⟩t"
+26,IN_AutoMutualInfoStats_40_gaussian_fmmi,"Automutual information, m = 2, τ = 5",,,,,,,,"catch22: Automutual information, m = 2, τ = 5"
+27,FC_LocalSimple_mean1_tauresrat,First minimum of the automutual information function,,,,,,,,catch22: First minimum of the automutual information function
+28,DN_OutlierInclude_p_001_mdrmd,Proportion of successive differences exceeding 0.04σ (Mietus 2002),,,,,,,,catch22: Proportion of successive differences exceeding 0.04σ (Mietus 2002)
+29,DN_OutlierInclude_n_001_mdrmd,Longest period of successive incremental decreases,,,,,,,,catch22: Longest period of successive incremental decreases
+30,SP_Summaries_welch_rect_area_5_1,Shannon entropy of two successive letters in equiprobable 3-letter symbolization,,,,,,,,catch22: Shannon entropy of two successive letters in equiprobable 3-letter symbolization
+31,SB_BinaryStats_diff_longstretch0,Change in correlation length after iterative differencing,,,,,,,,catch22: Change in correlation length after iterative differencing
+32,SB_MotifThree_quantile_hh,Exponential fit to successive distances in 2-d embedding space,,,,,,,,catch22: Exponential fit to successive distances in 2-d embedding space
+33,SC_FluctAnal_2_rsrangefit_50_1_logi_pr...,Proportion of slower timescale fluctuations that scale with DFA (50% sampling),,,,,,,,catch22: Proportion of slower timescale fluctuations that scale with DFA (50% sampling)
+34,SC_FluctAnal_2_dfa_50_1_2_logi_prop_r1,Proportion of slower timescale fluctuations that scale with linearly rescaled range fits,,,,,,,,catch22: Proportion of slower timescale fluctuations that scale with linearly rescaled range fits
+35,SP_Summaries_welch_rect_centroid,Trace of covariance of transition matrix between symbols in 3-letter alphabet,,,,,,,,catch22: Trace of covariance of transition matrix between symbols in 3-letter alphabet
+36,FC_LocalSimple_mean3_stderr,Periodicity measure of (Wang et al. 2007),,,,,,,,catch22: Periodicity measure of (Wang et al. 2007)
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+ALL CONCATENATED:,,,,,,,,,,
+"['Mean (µV)', 'Median (µV)', 'Standard Deviation (µV)', 'Maximum (µV)', 'Minimum (µV)', 'Power in Delta band (µV2 / Hz)', 'Power in Theta band (µV2 / Hz)', 'Power in Alpha band (µV2 / Hz)', 'Power in Beta band (µV2 / Hz)', 'Power in Gamma band (µV2 / Hz)', 'Power in Delta band (dB)', 'Power in Theta band (dB)', 'Power in Alpha band (dB)', 'Power in Beta band (dB)', 'Power in Gamma band (dB)', 'Mode of z-scored distribution (5-bin histogram)', 'Mode of z-scored distribution (10-bin histogram)', 'Longest period of consecutive values above the mean', 'Time intervals between successive extreme events above the mean', 'Time intervals between successive extreme events below the mean', 'First 1 / e crossing of autocorrelation function', 'First minimum of autocorrelation function', 'Total power in lowest fifth of frequencies in the Fourier power spectrum', 'Centroid of the Fourier power spectrum', 'Mean error from a rolling 3-sample mean forecasting', 'Time-reversibility statistic, ⟨(xt+1−xt)3⟩t⟨(xt+1−xt)3⟩t', 'Automutual information, m = 2, τ = 5', 'First minimum of the automutual information function', 'Proportion of successive differences exceeding 0.04σ (Mietus 2002)', 'Longest period of successive incremental decreases', 'Shannon entropy of two successive letters in equiprobable 3-letter symbolization', 'Change in correlation length after iterative differencing', 'Exponential fit to successive distances in 2-d embedding space', 'Proportion of slower timescale fluctuations that scale with DFA (50% sampling)', 'Proportion of slower timescale fluctuations that scale with linearly rescaled range fits', 'Trace of covariance of transition matrix between symbols in 3-letter alphabet', 'Periodicity measure of (Wang et al. 2007)']",,,,,,,,,,

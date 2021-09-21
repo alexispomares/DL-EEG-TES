@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with GTEN Planning Software, GTEN Version 1.0 -->
+<gten xmlns="http://www.egi.com/gten" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0">
+  <subjectId>run9</subjectId>
+  <name>Patient, Anonymous</name>
+  <planGenerator>egi</planGenerator>
+  <patterns>
+    <GTENPattern name="Empty Set">
+    </GTENPattern>
+    <GTENPattern name="posterior_1mA">
+      <GTENElectrode id="171" level="100"/>
+      <GTENElectrode id="161" level="100"/>
+      <GTENElectrode id="162" level="100"/>
+      <GTENElectrode id="152" level="0"/>
+      <GTENElectrode id="153" level="0"/>
+      <GTENElectrode id="85" level="100"/>
+      <GTENElectrode id="86" level="0"/>
+      <GTENElectrode id="75" level="100"/>
+      <GTENElectrode id="76" level="100"/>
+      <GTENElectrode id="77" level="0"/>
+      <GTENElectrode id="201" level="-25"/>
+      <GTENElectrode id="190" level="-25"/>
+      <GTENElectrode id="176" level="-25"/>
+      <GTENElectrode id="167" level="-25"/>
+      <GTENElectrode id="157" level="-25"/>
+      <GTENElectrode id="148" level="-25"/>
+      <GTENElectrode id="137" level="-25"/>
+      <GTENElectrode id="125" level="-50"/>
+      <GTENElectrode id="124" level="-25"/>
+      <GTENElectrode id="123" level="-25"/>
+      <GTENElectrode id="122" level="-25"/>
+      <GTENElectrode id="113" level="-25"/>
+      <GTENElectrode id="104" level="-25"/>
+      <GTENElectrode id="82" level="-25"/>
+      <GTENElectrode id="68" level="-25"/>
+      <GTENElectrode id="118" level="-50"/>
+      <GTENElectrode id="100" level="-50"/>
+      <GTENElectrode id="89" level="-50"/>
+      <GTENElectrode id="80" level="-50"/>
+      <GTENElectrode id="210" level="-25"/>
+      <GTENElectrode id="211" level="-25"/>
+      <GTENElectrode id="212" level="-25"/>
+      <GTENElectrode id="213" level="-25"/>
+      <GTENElectrode id="214" level="0"/>
+      <GTENElectrode id="61" level="-25"/>
+      <GTENElectrode id="48" level="-25"/>
+      <GTENElectrode id="55" level="-25"/>
+      <GTENElectrode id="40" level="-25"/>
+      <GTENElectrode id="29" level="0"/>
+      <GTENElectrode id="206" level="0"/>
+      <GTENElectrode id="197" level="0"/>
+      <GTENElectrode id="185" level="0"/>
+      <GTENElectrode id="8" level="0"/>
+      <GTENElectrode id="16" level="0"/>
+      <GTENElectrode id="23" level="0"/>
+      <GTENElectrode id="84" level="100"/>
+      <GTENElectrode id="71" level="100"/>
+      <GTENElectrode id="170" level="100"/>
+      <GTENElectrode id="172" level="100"/>
+      <GTENElectrode id="41" level="-25"/>
+      <GTENElectrode id="42" level="-25"/>
+      <GTENElectrode id="43" level="-25"/>
+      <GTENElectrode id="44" level="-25"/>
+      <GTENElectrode id="131" level="-25"/>
+      <GTENElectrode id="205" level="-25"/>
+      <GTENElectrode id="196" level="-25"/>
+      <GTENElectrode id="184" level="-25"/>
+    </GTENPattern>
+    <GTENPattern name="frontal_1mA">
+      <GTENElectrode id="209" level="-25"/>
+      <GTENElectrode id="219" level="-25"/>
+      <GTENElectrode id="0" level="-25"/>
+      <GTENElectrode id="9" level="-25"/>
+      <GTENElectrode id="10" level="0"/>
+      <GTENElectrode id="11" level="0"/>
+      <GTENElectrode id="201" level="-25"/>
+      <GTENElectrode id="191" level="-25"/>
+      <GTENElectrode id="178" level="0"/>
+      <GTENElectrode id="170" level="0"/>
+      <GTENElectrode id="161" level="0"/>
+      <GTENElectrode id="203" level="0"/>
+      <GTENElectrode id="194" level="0"/>
+      <GTENElectrode id="204" level="100"/>
+      <GTENElectrode id="195" level="0"/>
+      <GTENElectrode id="205" level="100"/>
+      <GTENElectrode id="41" level="100"/>
+      <GTENElectrode id="50" level="0"/>
+      <GTENElectrode id="56" level="0"/>
+      <GTENElectrode id="57" level="0"/>
+      <GTENElectrode id="49" level="100"/>
+      <GTENElectrode id="12" level="0"/>
+      <GTENElectrode id="13" level="0"/>
+      <GTENElectrode id="14" level="-50"/>
+      <GTENElectrode id="21" level="0"/>
+      <GTENElectrode id="27" level="0"/>
+      <GTENElectrode id="33" level="0"/>
+      <GTENElectrode id="37" level="0"/>
+      <GTENElectrode id="45" level="-25"/>
+      <GTENElectrode id="53" level="-25"/>
+      <GTENElectrode id="60" level="-25"/>
+      <GTENElectrode id="67" level="-25"/>
+      <GTENElectrode id="68" level="-25"/>
+      <GTENElectrode id="73" level="-25"/>
+      <GTENElectrode id="83" level="0"/>
+      <GTENElectrode id="84" level="0"/>
+      <GTENElectrode id="85" level="0"/>
+      <GTENElectrode id="7" level="-50"/>
+      <GTENElectrode id="185" level="-25"/>
+      <GTENElectrode id="8" level="-25"/>
+      <GTENElectrode id="44" level="-25"/>
+      <GTENElectrode id="131" level="-25"/>
+      <GTENElectrode id="79" level="-25"/>
+      <GTENElectrode id="130" level="-25"/>
+      <GTENElectrode id="87" level="0"/>
+      <GTENElectrode id="86" level="0"/>
+      <GTENElectrode id="141" level="0"/>
+      <GTENElectrode id="152" level="0"/>
+      <GTENElectrode id="40" level="100"/>
+      <GTENElectrode id="48" level="100"/>
+      <GTENElectrode id="29" level="100"/>
+      <GTENElectrode id="20" level="-50"/>
+      <GTENElectrode id="26" level="-25"/>
+      <GTENElectrode id="32" level="-25"/>
+      <GTENElectrode id="36" level="-25"/>
+      <GTENElectrode id="17" level="-25"/>
+      <GTENElectrode id="18" level="-25"/>
+      <GTENElectrode id="19" level="-25"/>
+      <GTENElectrode id="214" level="100"/>
+      <GTENElectrode id="213" level="100"/>
+      <GTENElectrode id="212" level="100"/>
+      <GTENElectrode id="74" level="-25"/>
+      <GTENElectrode id="75" level="-25"/>
+      <GTENElectrode id="76" level="-25"/>
+      <GTENElectrode id="77" level="-25"/>
+      <GTENElectrode id="78" level="-25"/>
+      <GTENElectrode id="179" level="-25"/>
+      <GTENElectrode id="171" level="-25"/>
+      <GTENElectrode id="162" level="-25"/>
+      <GTENElectrode id="153" level="-25"/>
+      <GTENElectrode id="142" level="-25"/>
+    </GTENPattern>
+  </patterns>
+  <protocols>
+    <GTENRestProtocol name="Rest Period: 00:02:00" duration="2"/>
+    <GTENRestProtocol name="Rest Period: 00:00:40" duration="0.666667"/>
+    <GTENRestProtocol name="Rest Period: 00:00:01" duration="0.0166667"/>
+    <GTENRestProtocol name="Rest Period: 00:00:20" duration="0.316667"/>
+    <GTENRestProtocol name="Rest Period: 00:01:00" duration="1"/>
+    <GTENRestProtocol name="Rest Period: 00:00:21" duration="0.316667"/>
+    <GTENRestProtocol name="Rest Period: 00:00:22" duration="0.366667"/>
+    <GTENRestProtocol name="Rest Period: 00:00:17" duration="0.266667"/>
+    <GTENRestProtocol name="Rest Period: 00:00:37" duration="0.616667"/>
+    <GTENRestProtocol name="Rest Period: 00:05:00" duration="5"/>
+    <GTENRampUpProtocol name="pre_RampUp" duration="0.05"/>
+    <GTENACProtocol name="tACS" duration="0.266667" frequency="10" dcOffset="0"/>
+    <GTENDCProtocol name="tDCS" duration="0.266667" rampUpTime="0" rampDownTime="0"/>
+  </protocols>
+  <activePlan>
+    <GTENStimulationBlock patternID="frontal_1mA"  protocolID="pre_RampUp"/>
+    <GTENStimulationBlock patternID="frontal_1mA"  protocolID="tACS"/>
+    <GTENStimulationBlock patternID="Empty Set"  protocolID="Rest Period: 00:00:20"/>
+    <GTENStimulationBlock patternID="posterior_1mA"  protocolID="pre_RampUp"/>
+    <GTENStimulationBlock patternID="posterior_1mA"  protocolID="tDCS"/>
+    <GTENStimulationBlock patternID="Empty Set"  protocolID="Rest Period: 00:00:20"/>
+    <GTENStimulationBlock patternID="Empty Set"  protocolID="Rest Period: 00:00:20"/>
+    <GTENStimulationBlock patternID="posterior_1mA"  protocolID="pre_RampUp"/>
+    <GTENStimulationBlock patternID="posterior_1mA"  protocolID="tACS"/>
+    <GTENStimulationBlock patternID="Empty Set"  protocolID="Rest Period: 00:00:20"/>
+    <GTENStimulationBlock patternID="Empty Set"  protocolID="Rest Period: 00:00:20"/>
+    <GTENStimulationBlock patternID="frontal_1mA"  protocolID="pre_RampUp"/>
+    <GTENStimulationBlock patternID="frontal_1mA"  protocolID="tDCS"/>
+    <GTENStimulationBlock patternID="Empty Set"  protocolID="Rest Period: 00:00:20"/>
+    <GTENStimulationBlock patternID="posterior_1mA"  protocolID="pre_RampUp"/>
+    <GTENStimulationBlock patternID="posterior_1mA"  protocolID="tACS"/>
+    <GTENStimulationBlock patternID="Empty Set"  protocolID="Rest Period: 00:00:20"/>
+    <GTENStimulationBlock patternID="frontal_1mA"  protocolID="pre_RampUp"/>
+    <GTENStimulationBlock patternID="frontal_1mA"  protocolID="tACS"/>
+    <GTENStimulationBlock patternID="Empty Set"  protocolID="Rest Period: 00:00:20"/>
+  </activePlan>
+</gten>
