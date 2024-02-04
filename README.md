@@ -1,5 +1,7 @@
 ## Deep Learning classification of EEG responses to TES
-This repository contains a framework for leveraging Deep Learning (DL) algorithms to classify EEG brain responses evoked by Transcranial Electrical Stimulation (TES). Extensive documentation can be found in this [MRes Neurotechnology Thesis](https://drive.google.com/file/d/1LB9YoMJ4HiKsqeFQbf2XXOco3DdwnjdF/view).
+This repository contains a framework for leveraging Deep Learning (DL) algorithms to classify Electroencephalography (EEG) brain responses evoked by Transcranial Electrical Stimulation (TES).
+
+Extensive documentation can be found in my [MRes Neurotechnology thesis](https://drive.google.com/file/d/1LB9YoMJ4HiKsqeFQbf2XXOco3DdwnjdF/view) at Imperial College, London.
 
 Our neuroscientific EEG-TES datasets used to train the DL models can be found in Kaggle, as [Raw MFF](https://www.kaggle.com/alexispomares/dissertation-raw) and [Preprocessed CSV](https://www.kaggle.com/alexispomares/dissertation-preprocessed) files.
 
