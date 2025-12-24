@@ -41,7 +41,4 @@ Special thanks for their expert guidance during this research to:
 
 
 ## Questions?
-Raise a [GitHub Issue](https://github.com/alexispomares/DL-EEG-TES/issues) or contact me via [LinkedIn](https://www.linkedin.com/in/alexispomares/).
-
-Thanks,  
-[Alexis Pomares](https://www.linkedin.com/in/alexispomares/)
+Contact me via [LinkedIn](https://www.linkedin.com/in/alexispomares/)!
